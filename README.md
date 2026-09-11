@@ -1,5 +1,11 @@
 Academic Workload Management System
 
+ Overview
+A Python application to track assignments, deadlines, and project statuses using object-oriented programming.
+
+Usage
+Run `main.py` in your terminal to view and append academic tasks.
+
 Project Purpose
 
 The Academic Workload Management System is a Python-based academic project designed to help organise and manage academic workload information.
