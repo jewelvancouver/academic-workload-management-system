@@ -14,3 +14,7 @@ class Workload:
 
     def to_file_format(self):
         return f"{self.task_name}|{self.course}|{self.deadline}|{self.status}\n"
+def save_workload(self, filepath="data/workload.txt"):
+    """Saves the current workload entry to a text file."""
+    with open(filepath, "a") as file:
+        file.write(f"{self.task_name},{self.course},{self.deadline},{self.status}\n")
