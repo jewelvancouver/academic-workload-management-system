@@ -26,6 +26,10 @@ Technologies Used
 * Exception handling
 * Visual Studio Code
 
+My Contribution
+- Designed object-oriented structure in `workload.py`.
+- Implemented file persistence and error handling routines in `main.py`.
+
 Main Features
 
 The system is designed to demonstrate features such as:
