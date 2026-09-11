@@ -1,0 +1,3 @@
+Python Assignment|Programming|20 September 2026|Pending
+Database Project|Database Systems|25 September 2026|Pending
+Web Development Task|Web Development|30 September 2026|Completed
