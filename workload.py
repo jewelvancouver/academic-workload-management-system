@@ -18,3 +18,11 @@ def save_workload(self, filepath="data/workload.txt"):
     """Saves the current workload entry to a text file."""
     with open(filepath, "a") as file:
         file.write(f"{self.task_name},{self.course},{self.deadline},{self.status}\n")
+
+def display_workloads(filepath="data/workload.txt"):
+    """Reads and prints all workloads from the text file."""
+    print("\n--- Current Academic Workload ---")
+    with open(filepath, "r") as file:
+        for line in file:
+            task, course, deadline, status = line.strip().split(",")
+            print(f"Task: {task} | Course: {course} | Due: {deadline} | Status: {status}")
