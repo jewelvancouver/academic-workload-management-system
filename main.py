@@ -78,3 +78,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+try:
+    display_workloads()
+except FileNotFoundError:
+    print("Error: Workload file not found. Creating a new record...")
+except ValueError:
+    print("Error: Invalid data format in workload file.")
+    
